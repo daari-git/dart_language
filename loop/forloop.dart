@@ -1,4 +1,8 @@
-/*void main() {
-  /// syntax of for loop
-  for (var i = 0; i < count; i++) {}
-}*/
+void main() {
+  for (int i = 0; i <= 10; i++) {
+    if (i == 6) {
+      continue;
+    }
+    print("hello $i");
+  }
+}

@@ -1,6 +1,14 @@
-/*void main() {
+void main() {
   /// for in loop syntax
-  for (var element in collection) {}
-}*/
+  var collection = ['1', '2', '3', '4'];
+  /*for (var element in collection) {
+    print(element);
+  }*/
+
+  collection.forEach((element) {
+    print(element);
+  });
+}
+
 
 /// write full code.

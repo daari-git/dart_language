@@ -1,3 +1,7 @@
-/*void main() {
-  while (condition) {}
-}*/
+void main() {
+  int i = 10;
+  while (i > 0) {
+    print("Hello $i");
+    i--;
+  }
+}
